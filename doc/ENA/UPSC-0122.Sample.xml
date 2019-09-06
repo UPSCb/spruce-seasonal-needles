@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAMPLE_SET xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ftp://webin.ebi.ac.uk/meta/xsd/sra_1_5/SRA.sample.xsd">
+ <SAMPLE alias="UPSC-0122-S0001" center_name="UPSC">
+  <TITLE>2011-05-16-001</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-05-16 biological replicate 1 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0002" center_name="UPSC">
+  <TITLE>2011-05-16-002</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-05-16 biological replicate 2 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0003" center_name="UPSC">
+  <TITLE>2011-05-16-003</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-05-16 biological replicate 3 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0004" center_name="UPSC">
+  <TITLE>2011-05-19-004</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-05-19 biological replicate 1 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0005" center_name="UPSC">
+  <TITLE>2011-05-19-005</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-05-19 biological replicate 2 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0006" center_name="UPSC">
+  <TITLE>2011-05-19-006</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-05-19 biological replicate 3 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0007" center_name="UPSC">
+  <TITLE>2011-05-19-007</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-05-19 biological replicate 4 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0008" center_name="UPSC">
+  <TITLE>2011-05-24-008</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-05-24 biological replicate 1 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0009" center_name="UPSC">
+  <TITLE>2011-05-24-009</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-05-24 biological replicate 2 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0010" center_name="UPSC">
+  <TITLE>2011-05-24-010</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-05-24 biological replicate 3 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0011" center_name="UPSC">
+  <TITLE>2011-05-27-011</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-05-27 biological replicate 1 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0012" center_name="UPSC">
+  <TITLE>2011-05-27-012</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-05-27 biological replicate 2 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0013" center_name="UPSC">
+  <TITLE>2011-05-27-013</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-05-27 biological replicate 3 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0014" center_name="UPSC">
+  <TITLE>2011-05-31-014</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-05-31 biological replicate 1 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0015" center_name="UPSC">
+  <TITLE>2011-05-31-015</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-05-31 biological replicate 2 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0016" center_name="UPSC">
+  <TITLE>2011-05-31-016</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-05-31 biological replicate 3 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0017" center_name="UPSC">
+  <TITLE>2011-06-03-017</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-03 biological replicate 1 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0018" center_name="UPSC">
+  <TITLE>2011-06-03-018</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-03 biological replicate 2 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0019" center_name="UPSC">
+  <TITLE>2011-06-03-019</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-03 biological replicate 3 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0020" center_name="UPSC">
+  <TITLE>2011-06-07-020</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-07 biological replicate 1 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0021" center_name="UPSC">
+  <TITLE>2011-06-07-021</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-07 biological replicate 2 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0022" center_name="UPSC">
+  <TITLE>2011-06-07-022</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-07 biological replicate 3 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0023" center_name="UPSC">
+  <TITLE>2011-06-10-023</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-10 biological replicate 1 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0024" center_name="UPSC">
+  <TITLE>2011-06-10-024</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-10 biological replicate 2 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0025" center_name="UPSC">
+  <TITLE>2011-06-10-025</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-10 biological replicate 3 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0026" center_name="UPSC">
+  <TITLE>2011-06-14-026</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-14 biological replicate 1 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0027" center_name="UPSC">
+  <TITLE>2011-06-14-027</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-14 biological replicate 2 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0028" center_name="UPSC">
+  <TITLE>2011-06-14-028</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-14 biological replicate 3 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0029" center_name="UPSC">
+  <TITLE>2011-06-17-029</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-17 biological replicate 1 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0030" center_name="UPSC">
+  <TITLE>2011-06-17-030</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-17 biological replicate 2 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0031" center_name="UPSC">
+  <TITLE>2011-06-17-031</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-17 biological replicate 3 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0032" center_name="UPSC">
+  <TITLE>2011-06-20-032</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-20 biological replicate 1 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0033" center_name="UPSC">
+  <TITLE>2011-06-20-033</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-20 biological replicate 2 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0034" center_name="UPSC">
+  <TITLE>2011-06-20-034</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-20 biological replicate 3 techical replicate 3</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0035" center_name="UPSC">
+  <TITLE>2011-06-23-035</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-23 biological replicate 1 techical replicate 3</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0036" center_name="UPSC">
+  <TITLE>2011-06-23-036</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-23 biological replicate 2 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0037" center_name="UPSC">
+  <TITLE>2011-06-23-037</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-23 biological replicate 3 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0038" center_name="UPSC">
+  <TITLE>2011-06-27-038</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-27 biological replicate 1 techical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0039" center_name="UPSC">
+  <TITLE>2011-06-27-039</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-27 biological replicate 2 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0040" center_name="UPSC">
+  <TITLE>2011-06-27-040</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-27 biological replicate 3 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0041" center_name="UPSC">
+  <TITLE>2011-06-30-041</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-06-30 biological replicate 1 techical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0042" center_name="UPSC">
+  <TITLE>2011-07-04-044</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-07-04 biological replicate 1 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0043" center_name="UPSC">
+  <TITLE>2011-07-04-045</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-07-04 biological replicate 2 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0044" center_name="UPSC">
+  <TITLE>2011-07-04-046</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-07-04 biological replicate 3 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0045" center_name="UPSC">
+  <TITLE>2011-07-11-047</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-07-11 biological replicate 1 techical replicate 3</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0046" center_name="UPSC">
+  <TITLE>2011-07-11-048</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-07-11 biological replicate 2 techical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0047" center_name="UPSC">
+  <TITLE>2011-07-11-049</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-07-11 biological replicate 3 techical replicate 3</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0048" center_name="UPSC">
+  <TITLE>2011-07-18-050</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-07-18 biological replicate 1 techical replicate 3</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0049" center_name="UPSC">
+  <TITLE>2011-07-18-051</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-07-18 biological replicate 2 techical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0050" center_name="UPSC">
+  <TITLE>2011-07-18-052</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-07-18 biological replicate 3 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0051" center_name="UPSC">
+  <TITLE>2011-07-25-053</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-07-25 biological replicate 1 techical replicate 3</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0052" center_name="UPSC">
+  <TITLE>2011-07-25-055</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-07-25 biological replicate 2 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0053" center_name="UPSC">
+  <TITLE>2011-08-01-057</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-08-01 biological replicate 1 techical replicate 3</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0054" center_name="UPSC">
+  <TITLE>2011-08-01-058</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-08-01 biological replicate 2 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0055" center_name="UPSC">
+  <TITLE>2011-08-08-059</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-08-08 biological replicate 1 techical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0056" center_name="UPSC">
+  <TITLE>2011-08-08-060</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-08-08 biological replicate 2 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0057" center_name="UPSC">
+  <TITLE>2011-08-08-061</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-08-08 biological replicate 3 techical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0058" center_name="UPSC">
+  <TITLE>2011-08-22-062</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-08-22 biological replicate 1 techical replicate 4</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0059" center_name="UPSC">
+  <TITLE>2011-08-22-063</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-08-22 biological replicate 2 techical replicate 5</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0060" center_name="UPSC">
+  <TITLE>2011-08-22-064</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-08-22 biological replicate 3 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0061" center_name="UPSC">
+  <TITLE>2011-09-06-065</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-09-06 biological replicate 1 techical replicate 3</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0062" center_name="UPSC">
+  <TITLE>2011-09-06-066</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-09-06 biological replicate 2 techical replicate 4</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0063" center_name="UPSC">
+  <TITLE>2011-09-06-067</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-09-06 biological replicate 3 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0064" center_name="UPSC">
+  <TITLE>2011-09-20-068</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-09-20 biological replicate 1 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0065" center_name="UPSC">
+  <TITLE>2011-09-20-069</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-09-20 biological replicate 2 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0066" center_name="UPSC">
+  <TITLE>2011-09-20-070</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-09-20 biological replicate 3 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0067" center_name="UPSC">
+  <TITLE>2011-10-17-071</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-10-17 biological replicate 1 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0068" center_name="UPSC">
+  <TITLE>2011-10-17-072</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-10-17 biological replicate 2 techical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0069" center_name="UPSC">
+  <TITLE>2011-10-17-073</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-10-17 biological replicate 3 techical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0070" center_name="UPSC">
+  <TITLE>2011-11-16-074</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-11-16 biological replicate 1 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0071" center_name="UPSC">
+  <TITLE>2011-11-16-075</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-11-16 biological replicate 2 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0072" center_name="UPSC">
+  <TITLE>2011-11-16-076</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2011-11-16 biological replicate 3 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0073" center_name="UPSC">
+  <TITLE>2012-02-21-077</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2012-02-21 biological replicate 1 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0074" center_name="UPSC">
+  <TITLE>2012-02-21-078</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2012-02-21 biological replicate 2 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0075" center_name="UPSC">
+  <TITLE>2012-02-21-079</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2012-02-21 biological replicate 3 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0076" center_name="UPSC">
+  <TITLE>2012-03-27-080</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2012-03-27 biological replicate 1 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0077" center_name="UPSC">
+  <TITLE>2012-03-27-081</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2012-03-27 biological replicate 2 techical replicate 2</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0078" center_name="UPSC">
+  <TITLE>2012-03-27-082</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2012-03-27 biological replicate 3 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0079" center_name="UPSC">
+  <TITLE>2012-04-24-084</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2012-04-24 biological replicate 1 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0080" center_name="UPSC">
+  <TITLE>2012-04-24-085</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2012-04-24 biological replicate 2 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0081" center_name="UPSC">
+  <TITLE>2012-05-02-086</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2012-05-02 biological replicate 1 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0082" center_name="UPSC">
+  <TITLE>2012-05-02-088</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2012-05-02 biological replicate 2 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0083" center_name="UPSC">
+  <TITLE>2012-05-11-089</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2012-05-11 biological replicate 1 techical replicate 1</DESCRIPTION>
+ </SAMPLE>
+ <SAMPLE alias="UPSC-0122-S0084" center_name="UPSC">
+  <TITLE>2012-05-11-091</TITLE>
+  <SAMPLE_NAME>
+   <TAXON_ID>3329</TAXON_ID>
+   <SCIENTIFIC_NAME>Picea abies</SCIENTIFIC_NAME>
+   <COMMON_NAME>Norway spruce</COMMON_NAME>
+  </SAMPLE_NAME>
+  <DESCRIPTION>Needles selected on 2012-05-11 biological replicate 2 techical replicate 2</DESCRIPTION>
+ </SAMPLE>
+</SAMPLE_SET>

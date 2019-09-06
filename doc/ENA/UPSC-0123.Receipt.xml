@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="receipt.xsl"?>
+<RECEIPT receiptDate="2018-04-26T13:59:10.742+01:00" submissionFile="UPSC-0123.Submission.xml" success="true">
+     <EXPERIMENT accession="ERX2556047" alias="UPSC-0123-E0001" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX2556048" alias="UPSC-0123-E0002" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX2556049" alias="UPSC-0123-E0003" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX2556050" alias="UPSC-0123-E0004" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX2556051" alias="UPSC-0123-E0005" status="PRIVATE"/>
+     <EXPERIMENT accession="ERX2556052" alias="UPSC-0123-E0006" status="PRIVATE"/>
+     <RUN accession="ERR2537495" alias="UPSC-0123-R0001" status="PRIVATE"/>
+     <RUN accession="ERR2537496" alias="UPSC-0123-R0002" status="PRIVATE"/>
+     <RUN accession="ERR2537497" alias="UPSC-0123-R0003" status="PRIVATE"/>
+     <RUN accession="ERR2537498" alias="UPSC-0123-R0004" status="PRIVATE"/>
+     <RUN accession="ERR2537499" alias="UPSC-0123-R0005" status="PRIVATE"/>
+     <RUN accession="ERR2537500" alias="UPSC-0123-R0006" status="PRIVATE"/>
+     <SAMPLE accession="ERS2431554" alias="UPSC-0123-S0001" status="PRIVATE" holdUntilDate="2020-02-19Z">
+          <EXT_ID accession="SAMEA4610862" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS2431555" alias="UPSC-0123-S0002" status="PRIVATE" holdUntilDate="2020-02-19Z">
+          <EXT_ID accession="SAMEA4610863" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS2431556" alias="UPSC-0123-S0003" status="PRIVATE" holdUntilDate="2020-02-19Z">
+          <EXT_ID accession="SAMEA4610864" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS2431557" alias="UPSC-0123-S0004" status="PRIVATE" holdUntilDate="2020-02-19Z">
+          <EXT_ID accession="SAMEA4610865" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS2431558" alias="UPSC-0123-S0005" status="PRIVATE" holdUntilDate="2020-02-19Z">
+          <EXT_ID accession="SAMEA4610866" type="biosample"/>
+     </SAMPLE>
+     <SAMPLE accession="ERS2431559" alias="UPSC-0123-S0006" status="PRIVATE" holdUntilDate="2020-02-19Z">
+          <EXT_ID accession="SAMEA4610867" type="biosample"/>
+     </SAMPLE>
+     <STUDY accession="ERP108423" alias="UPSC-0123" status="PRIVATE" holdUntilDate="2020-02-19Z">
+          <EXT_ID accession="PRJEB26436" type="Project"/>
+     </STUDY>
+     <SUBMISSION accession="ERA1356543" alias="UPSC-0123"/>
+     <MESSAGES>
+          <INFO>All objects in this submission are set to private status (HOLD).</INFO>
+          <INFO>Submission has been committed.</INFO>
+     </MESSAGES>
+     <ACTIONS>ADD</ACTIONS>
+     <ACTIONS>ADD</ACTIONS>
+     <ACTIONS>ADD</ACTIONS>
+     <ACTIONS>ADD</ACTIONS>
+     <ACTIONS>HOLD</ACTIONS>
+</RECEIPT>
