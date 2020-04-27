@@ -1,6 +1,6 @@
 #' ---
 #' title: "Plot Expression Profile"
-#' author: "Thomas Riquelme"
+#' author: "Nicolas Delhomme & Thomas Riquelme"
 #' date: "`r Sys.Date()`"
 #' output:
 #'  html_document:
@@ -15,18 +15,12 @@ setwd("/mnt/picea/projects/spruce/sjansson/seasonal-needles/u2015030")
 #' ```
 
 #' Libraries
-suppressPackageStartupMessages(library(DESeq2))
-suppressPackageStartupMessages(library(gplots))
-suppressPackageStartupMessages(library(LSD))
-suppressPackageStartupMessages(library(parallel))
-suppressPackageStartupMessages(library(pander))
-suppressPackageStartupMessages(library(RColorBrewer))
-suppressPackageStartupMessages(library(scatterplot3d))
-suppressPackageStartupMessages(library(tximport))
-suppressPackageStartupMessages(library(vsn))
-library(tidyverse)
-library(plotly)
-
+suppressPackageStartupMessages({
+  library(here)
+  library(tidyverse)
+  library(plotly)
+})
+  
 #' Create a palette
 pal <- brewer.pal(8,"Dark2")
 

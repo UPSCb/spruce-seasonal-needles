@@ -8,21 +8,19 @@
 #'    number_sections: true
 #' ---
 #' # Setup
-#' Set the working dir
-setwd("/mnt/picea/projects/spruce/sjansson/seasonal-needles/u2015030")
-#' ```{r set up, echo=FALSE}
-#' knitr::opts_knit$set(root.dir="/mnt/picea/projects/spruce/sjansson/seasonal-needles/u2015030")
-#' ```
+#' * Libraries
+suppressPackageStartupMessages({
+  library(amap)
+  library(here)
+  library(corrplot)
+  library(ggplot2)
+  library(matrixStats)
+})
 
-#' Libraries
-suppressPackageStartupMessages(library(amap))
-suppressPackageStartupMessages(library(corrplot))
-suppressPackageStartupMessages(require(graphics))
-suppressPackageStartupMessages(library(ggplot2))
-suppressPackageStartupMessages(library(matrixStats))
-
-#' Load table of counts vst transformed
-load(file = "vst_aware.rda")
+#' * Data
+#' 
+#' table of counts vst transformed
+load(here("data/vst_aware.rda"))
 
 #' Focus on one year of sampling - samples past 2012-04-24 are the
 #' next generation of needles
@@ -43,7 +41,7 @@ levels(labels) <- ifelse(as.integer(ddf[,3]) >= 25,
 plotLabels <- as.character(labels[match(levels(ordered_dates),ordered_dates)])
 plotLabels[duplicated(plotLabels)] <- ""
 
-#' Combine the replicates
+#' * Combine the replicates
 vst_bio_rep_mean <- do.call(cbind,lapply(split.data.frame(t(vst_aware),ordered_dates),colMeans))
 
 vst_bio_rep_median <- do.call(cbind,lapply(split.data.frame(t(vst_aware),ordered_dates),colMedians))
@@ -77,19 +75,23 @@ s.vst.lwr <- s.vst.mean-qt(0.975,3)*s.vst.sd/sqrt(3)
 #' "2011-06-30" has no replicates, thus it is impossible to calculate sd, lwr and upr
 #' replacement of NA values  in upr and lwr by the mean to be able to plot the confidence interval of the mean later
 s.vst.lwr[,"2011-06-30"] <- s.vst.mean[,"2011-06-30"]
-#s.vst.lwr[s.vst.lwr < 0] <- 0
 
 s.vst.upr <- s.vst.mean+qt(0.975,3)*s.vst.sd/sqrt(3)
 
 s.vst.upr[,"2011-06-30"] <- s.vst.upr[,"2011-06-30"]
 
-
-
-#' read Gene Of Interest csv file
-goi <- read.csv("~/Git/UPSCb/projects/spruce-needles/doc/GOI_list.csv", header = FALSE)
+#' * Gene Of Interest
+goi <- read.csv(here("doc/GOI_list.csv"), header = FALSE,as.is=TRUE)
 
 #' read GOI names file
-goi_names <- read.csv("~/Git/UPSCb/projects/spruce-needles/doc/GOI_names.txt", header=FALSE)
+goi_names <- read.csv(here("doc/GOI_names.txt"), header=FALSE)
+
+#' 2020-03-25: Add new extra gois
+extra.goi <- data.frame(c("MA_734271g0010.1", "MA_210976g0010.1", 
+               "MA_60075g0010.1", "MA_90810g0010.1"))
+goi <- rbind(goi,extra.goi)
+goi_names <- c(goi_names,extra.goi)
+
 
 #' ```{r test plot, eval=FALSE, echo=FALSE}
 #' # Test to plot one gene of the list
@@ -164,7 +166,8 @@ for (i in 1:nrow(goi)) {
       theme(axis.text.x = element_text(angle = 90, hjust = 1)) + 
       labs(y = "vst counts", title = paste("Expression profile of", goi_names[i,1]))
     plot(p)
-    suppressMessages(ggsave(filename = paste0("expression_profiles/",goi_names[i,1],"_expression_profile.jpeg")))
+    suppressMessages(ggsave(filename = here("data/expression_profiles",
+                                            paste0(goi_names[i,1],"_expression_profile.jpeg"))))
     
     DF <- data.frame(time=as.Date(levels(ordered_dates)),
                      mean=s.vst.mean[rownames(s.vst.mean) == goi[i,1]],
@@ -186,7 +189,8 @@ for (i in 1:nrow(goi)) {
               subtitle = paste("Average vst expression:",
                                round(mean(g_mean),digits=2)))
     plot(p)
-    suppressMessages(ggsave(filename = paste0("expression_profiles/",goi_names[i,1],"_scaled_expression_profile.jpeg")))
+    suppressMessages(ggsave(filename = here("data/expression_profiles",
+                                            paste0(goi_names[i,1],"_scaled_expression_profile.jpeg"))))
     
   }
 }
@@ -200,12 +204,15 @@ goi <- cbind(goi,goi_names)
 colnames(goi) <- c("id","name")
 
 #' select mean vst counts (of biological replicates for one time point) for gene of interest (goi)
-vst_bio_rep_mean_goi <- vst_bio_rep_mean[rownames(vst_bio_rep_mean) %in% goi$id,]
+sel <- match(goi$id, rownames(vst_bio_rep_mean))
+vst_bio_rep_mean_goi <- vst_bio_rep_mean[sel,]
 
 #' replace gene ids by gene names as rownames
-goi <- goi[! goi$name == "ELIP_C",]
-goi <- goi[order(match(goi$id,rownames(vst_bio_rep_mean_goi))),]
 rownames(vst_bio_rep_mean_goi) <- goi$name
+
+#' remove ELIP_C
+goi <- goi[! is.na(sel),]
+vst_bio_rep_mean_goi <- vst_bio_rep_mean_goi[! is.na(sel),]
 
 #' Normalize data to obtain z-score to quantify only the variation around the mean (=pattern) and not the amplitude anymore for each each gene
 #' by doing so we can compare the genes relatively to their expression pattern and not relatively of their amplitude like before
@@ -238,14 +245,14 @@ plot(vst_bio_rep_mean_goi_scaled_cluster,
      main="Cluster Dendrogram of photosynthetic genes",
      cex=0.8)
 
-pdf(file="photosyntetic-genes-dendrogram.pdf",width=12,height=8)
+pdf(file=here("data/photosyntetic-genes-dendrogram.pdf"),width=12,height=8)
 plot(vst_bio_rep_mean_goi_scaled_cluster, 
      main="Cluster Dendrogram of photosynthetic genes",
      cex=0.8,xlab="photosyntetic genes",sub="spearman distance, complete linkage")
 dev.off()
 
 #' Plot the correlation
-pdf(file = "expression_profiles/photosynthetic_genes_correlation_matrix.pdf")
+pdf(file = here("data/expression_profiles/photosynthetic_genes_correlation_matrix.pdf"))
 corrplot(cor(t(vst_bio_rep_mean_goi)),method="square",order="hclust", 
          title = "Correlation matrix of photosynthetic genes",
          tl.cex=0.4, cl.cex=0.5, tl.col="black", addrect=2, is.corr = FALSE, mar = c(0,0,2,0))
